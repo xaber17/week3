@@ -22,7 +22,7 @@ function groupAnimals(animals) {
 
         for (var z = animals.length - 1; z > x; z--) {
 
-            if (huruf === animals[z][0]) {
+            if (huruf == animals[z][0]) {
                 hewan = `${hewan}, ${animals[z]}`;
                 animals.splice(z, 1);
             }
